@@ -5,7 +5,7 @@ $my_username	       = "youremail@domain.com"
 $my_password	       = "super_secret_password"
 $my_project_name       = "project name here"
 $my_workspace_oid      = "0123456789" 
-$my_workspace_name 	   = "workspace name here" 
+$my_workspace_name     = "workspace name here" 
 $vendor                = "Vendor Name for custom headers"
 $my_base_url	       = "https://rally1.rallydev.com/slm"
 
@@ -34,7 +34,7 @@ def connect_to_rally ()
 	config[:password]	= $my_password
 	config[:workspace]	= $my_workspace_name
 	config[:project]	= $my_project_name
-	config[:version]    = "v2.0"
+	config[:version]        = "v2.0"
 	config[:headers]	= custom_headers
 
 	print "Attempting connection to Rally as username: #{config[:username]} at URL: #{$my_base_url}...\n"

@@ -1,7 +1,7 @@
 # Rally_Attachment_Exporter
-###A Ruby script to export all attachments for a project.
+A Ruby script to export all attachments for a project.
 
-#####Instructions 
+Instructions 
 
 	1.	Make sure that Ruby 2.6.5 is installed (this is the version it was ran and tested with).
 	2.	Make sure that the following gems are installed.

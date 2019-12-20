@@ -12,10 +12,10 @@ Instructions
 		a.	$my_username
 		b.	$my_password
 		c.	$my_project_name
-		d.  $my_workspace_oid 
-		e.  $my_workspace_name
-		f.  $vendor
-		g.  $my_base_url
+		d.  	$my_workspace_oid 
+		e.  	$my_workspace_name
+		f.  	$vendor
+		g.  	$my_base_url
 	5.	Open a terminal and cd into the directory containing the export-workspace-attachments.rb script and run it.
 			ruby export-workspace-attachments.rb 
 			Notes: The attachments will be inside a “Saved_Attachments” directory (created when the script is
